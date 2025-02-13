@@ -16,7 +16,7 @@ def format_number(num):
     else:
         return str(num)
 
-plt.rcParams['font.family'] = 'Meiryo'
+plt.rcParams['font.family'] = 'Noto Sans CJK JP'
 
 
 
