@@ -4,7 +4,7 @@ import streamlit as st
 import seaborn as sns
 import matplotlib.ticker as ticker
 
-artist_df = pd.read_csv("/Dashboard/spotify_charts_jp.csv", encoding="utf-8-sig")
+artist_df = pd.read_csv("spotify_charts_jp.csv", encoding="utf-8-sig")
 
 def format_number(num):
     if num >= 1_000_000_000:  # 1B
